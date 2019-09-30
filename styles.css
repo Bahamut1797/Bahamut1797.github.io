@@ -59,7 +59,7 @@ body {
 }
 
 .subtitle {
-    font-family: "europa", serif;
+    font-family: "europa", sans-serif;
     font-weight: 800;
     line-height: 1.5;
     font-size: 1.5rem;
@@ -342,6 +342,11 @@ input:checked + .slider:before {
     color: white;
 }
 
+.flip-card-front img {
+    height: 200px;
+    width: 200px;
+}
+
 .flip-card-back {
     background-color: #aabfef;
     color: black;
@@ -380,6 +385,28 @@ input:checked + .slider:before {
 
     .section-body {
         width: 85%;
+    }
+
+    .flip-card {
+        width: 260px;
+        height: 170px;
+    }
+
+    .flip-card-front img {
+        height: 170px;
+        width: 160px;
+    }
+
+    .flip-card-back .card {
+        margin: auto;
+    }
+
+    .sub-card {
+        font-size: 1.08rem;
+    }
+
+    .text-container .card {
+        font-size: 1.05rem;
     }
 }
 
