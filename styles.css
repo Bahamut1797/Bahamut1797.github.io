@@ -194,7 +194,7 @@ body {
 }
 
 .devtools .section-body {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .button {
@@ -239,7 +239,7 @@ body {
 
 .to-spanish {
     font-family: "europa", sans-serif;
-    padding: 5px 3px;
+    padding: 5px 5px;
 }
 
 .switch {
@@ -322,7 +322,7 @@ input:checked + .slider:before {
     transform-style: preserve-3d;
     border: 3px #555 solid;
     border-radius: 6%;
-    box-shadow: 0 0 55px -20px;
+    box-shadow: 0 0 55px -20px rgba(39, 44, 49, 0.6);
 }
 
 .flip-card:hover .flip-card-inner {
@@ -355,6 +355,14 @@ input:checked + .slider:before {
 
 .card {
     padding: 0 8px;
+}
+
+.sub-card {
+    font-size: 1.15rem;
+}
+
+.text-container .card {
+    font-size: 1.07rem;
 }
 
 @media screen and (max-width:640px) {
