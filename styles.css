@@ -193,7 +193,11 @@ body {
     background-size: cover;
 }
 
-.devtools .section-body {
+.devtools .section-body{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.devtools .icons-container{
     background: rgba(255, 255, 255, 0.5);
 }
 
